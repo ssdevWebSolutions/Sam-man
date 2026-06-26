@@ -13,6 +13,9 @@ import ProvenStrategy from './components/MarketingStrategy/ProvenStrategy'
 import MarketingStrategies from './components/MarketingStrategy/MarketingStrategies'
 import DesignSystemPreview from './components/DesignSystemPreview'
 import { sections } from './data/sections'
+import Testimonials from './components/Testimonials/Testimonials.jsx'
+import Newsletter from './components/Newsletter/Newsletter.jsx'
+import Footer from './components/Footer/Footer.jsx'
 
 function App() {
   const [isDark, setIsDark] = useState(false)
@@ -35,6 +38,9 @@ function App() {
       <SocialMedia />
       <ProvenStrategy />
       <MarketingStrategies />
+      <Testimonials />
+      <Newsletter/>
+      <Footer />
     </div>
   )
 }
